@@ -62,22 +62,20 @@ Output formats:
     python ct_dangling_dns_scan.py -d example.com --format json -o results.json
     python ct_dangling_dns_scan.py -d example.com --format xml -o results.xml
 
---------------------------------------------------------------------
-Example Output (CSV)
---------------------------------------------------------------------
-host              | has_cname | cname_chain                | a_records | potential_dangling | dangling_reason                         | service_or_hint | ns_off_domain | mx_off_domain
-------------------+-----------+----------------------------+-----------+--------------------+------------------------------------------+-----------------+---------------+---------------
-blog.example.com  | True      | blog.example.com -> s3…   |           | True               | CNAME target does not resolve (no A/AAAA) | AWS S3          | False         | False
-mail.example.com  | False     | -                          | 93.184.1.1| False              |                                          |                 | True          | True
 
 --------------------------------------------------------------------
 Features
 --------------------------------------------------------------------
 [x] Fetch subdomains from crt.sh
+
 [x] Optional wordlist brute-force
+
 [x] Dangling DNS detection (CNAME → NXDOMAIN)
+
 [x] HTTP/HTTPS fingerprint checks (S3, GitHub Pages, Azure, Netlify, etc.)
+
 [x] NS/MX off-domain detection
+
 [x] Output in CSV, JSON, XML
 
 --------------------------------------------------------------------
