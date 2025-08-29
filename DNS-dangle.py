@@ -33,7 +33,7 @@ import httpx
 import xml.etree.ElementTree as ET
 
 CRT_URL = "https://crt.sh/"
-USER_AGENT = "CTDanglingDNSScanner/1.1 (educational; contact=security@example.com)"
+USER_AGENT = "DNS-Dangle/1.1 (educational; info@cybergoblin.org)"
 
 FINGERPRINTS: Dict[str, Dict[str, List[str]]] = {
     "AWS S3": {
