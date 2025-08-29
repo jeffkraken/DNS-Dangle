@@ -51,7 +51,7 @@ Skip HTTP fingerprinting (DNS-only check):
 
 Add subdomains from a wordlist:
 
-    python DNS-dangle.py -d example.com --wordlist ./subdomains.txt
+    python DNS-dangle.py -d example.com --wordlist ./wordlists/short.txt
 
 Check NS/MX records for off-domain delegation:
 
