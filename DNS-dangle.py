@@ -2,13 +2,13 @@
 """
 The DNS Dangle!
 - Queries crt.sh for subdomains of a given domain (via JSON endpoint)
-- (NEW) Optionally brute-forces hostnames from a wordlist
+- Optionally brute-forces hostnames from a wordlist
 - Resolves DNS (CNAME/A/AAAA) and checks for dangling DNS conditions
-- (NEW) Checks NS/MX records for "off-domain" targets (outsourced/delegated)
-- (NEW) Outputs CSV/JSON/XML
+- Checks NS/MX records for "off-domain" targets (outsourced/delegated)
+- Outputs CSV/JSON/XML
 
 Usage:
-  python ct_dangling_dns_scan.py -d example.com -o results.csv --format csv --ns-mx-scan --wordlist words.txt
+  python DNS-dangle.py -d example.com -o results.csv --format csv --ns-mx-scan --wordlist words.txt
 
 Dependencies:
   pip install requests dnspython httpx
