@@ -1,0 +1,12 @@
+www
+mail
+ftp
+dev
+test
+vpn
+ns1
+ns2
+api
+staging
+blog
+shop
