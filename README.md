@@ -39,28 +39,28 @@ Usage
 --------------------------------------------------------------------
 Basic CT log scan:
 
-    python ct_dangling_dns_scan.py -d example.com
+    python DNS-dangle.py -d example.com
 
 Save results to CSV with custom resolvers:
 
-    python ct_dangling_dns_scan.py -d example.com --dns-server 1.1.1.1 --dns-server 8.8.8.8 -o results.csv
+    python DNS-dangle.py -d example.com --dns-server 1.1.1.1 --dns-server 8.8.8.8 -o results.csv
 
 Skip HTTP fingerprinting (DNS-only check):
 
-    python ct_dangling_dns_scan.py -d example.com --no-http
+    python DNS-dangle.py -d example.com --no-http
 
 Add subdomains from a wordlist:
 
-    python ct_dangling_dns_scan.py -d example.com --wordlist ./subdomains.txt
+    python DNS-dangle.py -d example.com --wordlist ./subdomains.txt
 
 Check NS/MX records for off-domain delegation:
 
-    python ct_dangling_dns_scan.py -d example.com --ns-mx-scan
+    python DNS-dangle.py -d example.com --ns-mx-scan
 
 Output formats:
 
-    python ct_dangling_dns_scan.py -d example.com --format json -o results.json
-    python ct_dangling_dns_scan.py -d example.com --format xml -o results.xml
+    python DNS-dangle.py -d example.com --format json -o results.json
+    python DNS-dangle.py -d example.com --format xml -o results.xml
 
 
 --------------------------------------------------------------------
