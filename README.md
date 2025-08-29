@@ -66,17 +66,17 @@ Output formats:
 --------------------------------------------------------------------
 Features
 --------------------------------------------------------------------
-[x] Fetch subdomains from crt.sh
+ - Fetch subdomains from crt.sh
 
-[x] Optional wordlist brute-force
+ - Optional wordlist brute-force
 
-[x] Dangling DNS detection (CNAME → NXDOMAIN)
+ - Dangling DNS detection (CNAME → NXDOMAIN)
 
-[x] HTTP/HTTPS fingerprint checks (S3, GitHub Pages, Azure, Netlify, etc.)
+ - HTTP/HTTPS fingerprint checks (S3, GitHub Pages, Azure, Netlify, etc.)
 
-[x] NS/MX off-domain detection
+ - NS/MX off-domain detection
 
-[x] Output in CSV, JSON, XML
+ - Output in CSV, JSON, XML
 
 --------------------------------------------------------------------
 License
