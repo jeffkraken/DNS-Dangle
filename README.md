@@ -79,6 +79,14 @@ Features
  - Output in CSV, JSON, XML
 
 --------------------------------------------------------------------
+In-prog
+--------------------------------------------------------------------
+
+ - Update to list found hosts/subdomains
+
+ - Include dynamic output formatting
+
+--------------------------------------------------------------------
 License
 --------------------------------------------------------------------
 This project is licensed under the MIT License (see LICENSE).
