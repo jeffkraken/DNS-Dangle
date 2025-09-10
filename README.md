@@ -25,7 +25,7 @@ Installation
 --------------------------------------------------------------------
 Clone this repo and install dependencies:
 
-    git clone https://github.com/<yourname>/DNS-Dangle.git
+    git clone https://github.com/jeffkraken/DNS-Dangle.git
     cd DNS-Dangle
     pip install -r requirements.txt
 
